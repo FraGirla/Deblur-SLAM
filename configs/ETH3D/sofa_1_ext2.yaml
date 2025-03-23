@@ -1,0 +1,10 @@
+inherit_from: ./configs/ETH3D/eth3d.yaml
+
+
+scene: sofa_1
+dataset: 'eth3d_ext'
+averaged_frames: 2
+n_virtual_cams: 6
+data:
+  input_folder: sofa_1_blur_2
+  gt_dataset_root: /cluster/scratch/fgirlanda/ETH3D/sofa_1

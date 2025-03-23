@@ -1,0 +1,10 @@
+inherit_from: ./configs/ETH3D/eth3d.yaml
+
+
+scene: sfm_lab_room_2
+dataset: 'eth3d_ext'
+averaged_frames: 2
+n_virtual_cams: 6
+data:
+  input_folder: sfm_lab_room_2_blur_2
+  gt_dataset_root: /cluster/scratch/fgirlanda/ETH3D/sfm_lab_room_2

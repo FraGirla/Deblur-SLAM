@@ -1,0 +1,8 @@
+inherit_from: configs/ReplicaBlurry/replica.yaml
+scene: office0
+
+
+meshing:
+  gt_mesh_path: /cluster/scratch/fgirlanda/datasets/replica/cull_replica_mesh/office0.ply
+data:
+  input_folder: /cluster/scratch/fgirlanda/extended/office_0

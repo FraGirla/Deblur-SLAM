@@ -1,0 +1,7 @@
+inherit_from: ./configs/ETH3D/eth3d.yaml
+
+
+scene: sfm_bench
+
+data:
+  input_folder: sfm_bench
